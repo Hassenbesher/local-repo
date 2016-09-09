@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta  http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+          Berka
+        </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/bootstrap-social.css" rel="stylesheet">
+        <link href="css/mystyles-old.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <button type="button" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                <a class="navbar-brand" href="berka.html"> <img src="img/oakland.jpg " width=41 height=30position: absolute></a>
+              <div  id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="berka.html"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span>Home</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                        Menu<b class="caret"></b>
+                        <ul class="dropdown-menu">
+                          <li><a href="vido.html">Vidos</a></li>
+                          <li><a href="#">Mission</a></li>
+                        </ul>
+
+                      </a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="link.html">Link</a><li>
+                </ul>
+
+
+
+              <ul class="nav navbar-nav navbar-right">
+              <li><a data-toggle="modal" data-target="#loginModal">
+              <span class="glyphicon glyphicon-user"></span> Login</a>
+              </li>
+              <li><a data-toggle="modal" data-target="#signupmodal">Sing up</a></li>
+
+          </ul>
+          </div>
+        </div>
+
+</nav>
+
+
+<div id="loginModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<!-- Modal content-->
+<div class="modal-content">
+  <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <h4 class="modal-title">Login </h4>
+  </div>
+  <div class="modal-body">
+
+    <div class="form-inline">
+      <div class="form-group">
+        <label for="Email"></label>
+        <div class="col-sm-1">
+          <input type="text" class="form-control" name="Email" id="Email" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="password" ></label>
+        <div class="col-sm-1">
+          <input type="text" class="form-control" name="password" id="password" placeholder="Password">
+        </div>
+
+      </div>
+
+             <div class="checkbox">
+               <label><input type="checkbox">Remember me</label>
+             </div>
+            <button  type="submit"class="btn btn-info btn-sm"> sign in</button>
+            <button type="button" class="btn btn-default btn-sm"
+             data-dismiss="modal">Cancel</button>
+    </div>
+
+  </div>
+</div>
+</div>
+</div>
+<div  id="signupmodal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class=modal-header>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Signup</h4>
+      </div>
+      <div class="modal-body">
+          <form class="horizontal" role="form">
+            <div class="row">
+            <div class="form-group">
+              <label for="Firstname" class="col-sm-2 control-label">Firstname</label>
+              <div class="col-sm-4">
+                <input type="text" id="Firstname" name="Firstname" class="form-control">  </div>    </div>
+          </div>
+          <div class="row">
+            <div class=" form-group">
+              <label for="Lastname" class="col-sm-2 control-label">Lastname</label>
+               <div class="col-sm-4">
+              <input type="text" id="Lastname" name="Lastname" class="form-control">  </div>  </div>  </div>
+          <div class="row">
+            <div class=" form-group">
+              <label for="Newpassword" class="col-sm-2 control-label">NewPassword</label>
+               <div class="col-sm-4">
+              <input type="password" id="Newpassword" name="Newpassword" class="form-control"></div>  </div>  </div>
+          <div class="row">
+            <div class=" form-group">
+              <label for="RNewpassword" class="col-sm-2 control-label">RE-Password</label>
+               <div class="col-sm-4">
+              <input type="password" id="RNewpassword" name="RNewpassword" class="form-control"></div></div></div>
+          <div class="row">
+            <div class="col-sm-offset-2 col-sm-2">
+              <button type="submit" class="btn-btn-defualt">submit</button>  </div>  </div>  </form></div></div></div></div>
+
+
+  <header class="jumbotron row-header">
+      <div class="container">
+      <div class="row">
+        <div class=" col-xs-12  col-lg-2">
+           <img src="img/oakland.jpg"  id="logo" class="img-responsive" alt="">
+
+
+        </div>
+        <div class="col-xs-12 col-lg-8">
+          <h3 style="font-family:fantasy;text-align:center;font-size:40px">Ethiopia muslim communitte</h3>
+        </div>
+
+
+
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row row-content">
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="https://www.youtube-nocookie.com/embed/OT12aNg6R8A" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="https://www.youtube-nocookie.com/embed/wazUTgcB324" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="https://www.youtube-nocookie.com/embed/ef8Ci5Zc3ZA" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+    </div>
+    <div class="row row-content">
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="embed/IMG_0957.JPG" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="https://www.youtube-nocookie.com/embed/OT12aNg6R8A" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="https://www.youtube-nocookie.com/embed/OT12aNg6R8A" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+    </div>
+    <div class="row row-content">
+      <div class="col-xs-12 col-sm-4">
+        <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" width="640" height="480" src="https://www.youtube-nocookie.com/embed/OT12aNg6R8A" frameborder="0" allowfullscreen></iframe>
+</div>
+      </div>
+    </div>
+  </div>
+  <footer class="row-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-4">
+          <ul class="list-unstyled">
+            <li><a href="berka.html">Home</a></li>
+            <li>About</li>
+            <li> Contact</li>
+            <li>Menu</li>
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+
+          <div class="nav navbar-nav" style="padding: 40px 10px;">
+              <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+              <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+              <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
+              <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+              <a class="btn btn-social-icon" href="mailto:hassenbesher@gmail.com"><i class="fa fa-envelope-o"></i></a>
+          </div>
+       </div>
+
+       <div class="col-xs-12 col-sm-4">
+         <adress>
+           690 15th street<br>
+           oakland Ca 94612<br>
+           USA
+         </adress>
+       </div>
+
+
+    </div>
+  </div>
+
+  </footer>
